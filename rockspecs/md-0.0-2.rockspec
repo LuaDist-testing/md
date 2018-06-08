@@ -1,17 +1,9 @@
--- This file was automatically generated for the LuaDist project.
-
 package = "md"
-version = "0.0-1"
--- LuaDist source
+version = "0.0-2"
 source = {
-  tag = "0.0-1",
-  url = "git://github.com/LuaDist-testing/md.git"
+    url = "git://github.com/bakpakin/luamd",
+    tag = "0.0"
 }
--- Original source
--- source = {
---     url = "git://github.com/bakpakin/luamd",
---     tag = "0.0-1"
--- }
 description = {
     summary = "Markdown to HTML in pure Lua.",
     detailed = [[
@@ -26,6 +18,6 @@ dependencies = {
 build = {
     type = "builtin",
     modules = {
-        tiny = "md.lua"
+        md = "md.lua"
     }
 }
